@@ -1,0 +1,59 @@
+homebrew_package_names:
+  - caskroom/cask/brew-cask
+  - rbenv
+  - rbenv-default-gems
+  - ruby-build
+  - zsh
+  - vim
+  - tmux
+  - tig
+  - jq
+  - blink1
+  - peco
+  - redis
+  - ngrok
+  - csshx
+  - gawk
+  - gnu-sed
+  - gnu-tar
+  - gnupg
+  - git
+  - hub
+  - node
+  - ipcalc
+  - keychain
+  - openssl
+  - sbt
+  - sl
+  - tree
+  - wget
+  - z
+homebrew_cask_package_names:
+  - alfred
+  - google-japanese-ime
+  - iterm2
+  - sketch
+  - sketch-tool
+  - sketch-toolbox
+  - vlc
+  - virtualbox
+  - slack
+symlink_files:
+  -
+    - .ssh/config
+    - dotfiles/ssh_config
+  -
+    - .gitconfig
+    - dotfiles/gitconfig
+  -
+    - .gitignore
+    - dotfiles/gitignore
+  -
+    - .vimrc
+    - dotfiles/vimrc
+  -
+    - .zshrc
+    - dotfiles/zshrc
+  -
+    - .tmux.conf
+    - dotfiles/tmux.conf

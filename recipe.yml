@@ -1,5 +1,0 @@
-resources:
-  - type: command
-    script: brew update
-  - type: homebrew_package
-    name: rbenv
